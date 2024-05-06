@@ -1,11 +1,11 @@
 import 'dart:async';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
 import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/intl.dart' as intl;
-
 
 /// A custom set of date patterns for the `nn` locale.
 ///
@@ -348,18 +348,20 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
 
   @override
   String get noSpellCheckReplacementsLabel => throw UnimplementedError();
-  
-  String get lookUpButtonLabel =>  '';
-  
- 
-  String get menuDismissLabel => '';
-  
-  
-  String get searchWebButtonLabel => '';
-  
-  
-  String get shareButtonLabel => '';
 
+  @override
+  String get lookUpButtonLabel => throw UnimplementedError();
 
-  
+  @override
+  String get menuDismissLabel => throw UnimplementedError();
+
+  @override
+  String get searchWebButtonLabel => throw UnimplementedError();
+
+  @override
+  String get shareButtonLabel => throw UnimplementedError();
+
+  @override
+  // TODO: implement clearButtonLabel
+  String get clearButtonLabel => throw UnimplementedError();
 }
